@@ -16,7 +16,7 @@ jobs:
           install.packages("blastula", type = "win.binary")
         shell: Rscript {0}
       - name: Script
-        run: Rscript email automation.R
+        run: Rscript send_email.R
       - name: Commit files
         run: |
           git config --local user.name github-actions

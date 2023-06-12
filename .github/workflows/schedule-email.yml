@@ -1,4 +1,4 @@
-name: Send email using Quarto and blastula
+name: Send email using Quarto and Blastula
 on: 
   schedule:
     - cron: '* * * * *'
